@@ -1,0 +1,334 @@
+﻿@media (max-width: 1439px) {
+    .container-header {
+        max-width: 1180px;
+    }
+}
+
+.container-header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.middle-xs {
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -3px;
+    margin-right: -3px;
+}
+
+.description {
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    flex-basis: 33.33333%;
+    max-width: 39.33333%;
+}
+
+.des-label {
+    font-size: 62px;
+    line-height: 62px;
+    font-weight: 700;
+}
+
+.timer-head {
+    text-align: center;
+}
+
+.timer-head-title {
+    font-size: 50px;
+    line-height: 28px;
+    font-weight: 600;
+    display: block;
+    padding-bottom: 30px;
+}
+
+.timer-head-date {
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+    margin-top: 20px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.timer-list {
+    margin-top: 5px;
+    display: -webkit-box;
+    display: flex;
+    padding-left: 0 !important;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.timer-list__item {
+    text-align: center;
+    width: 70px;
+    position: relative;
+}
+
+.timer-list__item-value {
+    font-size: 35px;
+    line-height: 28px;
+    font-weight: 700;
+    position: relative;
+}
+
+.timer-list__item-name {
+    font-size: 20px;
+    line-height: 15px;
+    margin-top: 8px;
+}
+
+.timer-action {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.timer-action__button {
+    transition: .3s ease-out;
+    display: inline-block;
+    background-color: #53C16A;
+    box-shadow: 0 14px 24px 0 rgba(50,49,58,.25);
+    width: 100%;
+    max-width: 100%;
+    color: #FFF !important;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    padding: 16px;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 2;
+    position: relative;
+    text-decoration: none !important;
+}
+
+.timer-action .button-tip {
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+    width: 150px;
+    text-align: center;
+    background: #F8A43B;
+    transition: .3s ease-out;
+    padding: 10px 0;
+    display: inline-block;
+    border-radius: 0 0 6px 6px;
+    position: relative;
+    z-index: 1;
+}
+
+.dividing-line {
+    position: relative;
+}
+
+    .dividing-line span {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: 4px auto 0;
+        height: 255px;
+        width: 2px;
+        display: block;
+        background: #BBA1FB;
+        -webkit-transform: rotate(15deg) translateY(-50%) translateX(-30px);
+        transform: rotate(15deg) translateY(-50%) translateX(-30px);
+    }
+
+#buyTokensBtn:hover {
+    background-color: #47AA5B !important;
+}
+
+timer-action__button:active {
+    background-color: #388949;
+}
+
+timer-action__button:active {
+    background-color: #388949;
+}
+
+@media (min-width: 768px) {
+    .timer {
+        margin-top: 50px;
+    }
+
+    .col-md-offset-2 {
+        margin-left: 13%;
+    }
+}
+
+.src-components----TokenSaleProgress-module---root---3XwUl {
+    position: relative;
+    padding: 22px 0;
+    font-size: 14px;
+    line-height: 1;
+}
+
+@media (max-width:599px) {
+    .src-components----TokenSaleProgress-module---root---3XwUl {
+        font-size: 10px;
+    }
+}
+
+.src-components----TokenSaleProgress-module---bar---1YG9q {
+    overflow: hidden;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.src-components----TokenSaleProgress-module---barFilled---1DW3f {
+    overflow: hidden;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    height: 24px;
+    line-height: 24px;
+    background-color: #4cc244;
+}
+
+@media (min-width: 767px) {
+    .src-components----TokenSaleProgress-module---barText---3RZYx {
+        margin: 0 5px;
+        font-size: 12px !important;
+    }
+}
+
+.src-components----TokenSaleProgress-module---barText---3RZYx {
+    margin: 0 2px;
+    color: #fff;
+    font-size: 7px;
+    font-weight: 700;
+}
+
+.src-components----TokenSaleProgress-module---barRemaining---3ou8T .src-components----TokenSaleProgress-module---barText---3RZYx {
+    display: none;
+}
+
+.src-components----TokenSaleProgress-module---loading---3snLD .src-components----TokenSaleProgress-module---barRemaining---3ou8T .src-components----TokenSaleProgress-module---barText---3RZYx {
+    display: block;
+}
+
+.src-components----TokenSaleProgress-module---barRemaining---3ou8T {
+    overflow: hidden;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 24px;
+    line-height: 24px;
+    background-color: #fff;
+}
+
+.src-components----TokenSaleProgress-module---legend---3s3E2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    transition: opacity .1s;
+}
+
+.src-components----TokenSaleProgress-module---loading---3snLD .src-components----TokenSaleProgress-module---legend---3s3E2 {
+    opacity: 0;
+}
+
+.src-components----TokenSaleProgress-module---legendItem---goglC {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-transform: translateX(-50%) perspective(1px);
+    transform: translateX(-50%) perspective(1px);
+}
+
+    .src-components----TokenSaleProgress-module---legendItem---goglC:after, .src-components----TokenSaleProgress-module---legendItem---goglC:before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        width: 1px;
+        height: 5px;
+        background-color: #fff;
+    }
+
+    .src-components----TokenSaleProgress-module---legendItem---goglC:before {
+        top: -5px;
+    }
+
+    .src-components----TokenSaleProgress-module---legendItem---goglC:after {
+        top: 24px;
+        opacity: 0;
+    }
+
+    .src-components----TokenSaleProgress-module---legendItem---goglC:first-of-type {
+        text-align: left;
+        -webkit-transform: translateX(1px) perspective(1px);
+        transform: translateX(1px) perspective(1px);
+    }
+
+        .src-components----TokenSaleProgress-module---legendItem---goglC:first-of-type:after, .src-components----TokenSaleProgress-module---legendItem---goglC:first-of-type:before {
+            left: 0;
+        }
+
+    .src-components----TokenSaleProgress-module---legendItem---goglC:last-of-type {
+        text-align: right;
+        -webkit-transform: translateX(-100%) perspective(1px);
+        transform: translateX(-100%) perspective(1px);
+    }
+
+        .src-components----TokenSaleProgress-module---legendItem---goglC:last-of-type:after, .src-components----TokenSaleProgress-module---legendItem---goglC:last-of-type:before {
+            left: calc(100% - 2px);
+        }
+
+.src-components----TokenSaleProgress-module---legendItemImportant---3Q6K0:after {
+    opacity: 1;
+}
+
+.src-components----TokenSaleProgress-module---legendItemImportant---3Q6K0 .src-components----TokenSaleProgress-module---legendLabel---3jNL7 {
+    opacity: 1;
+}
+
+.src-components----TokenSaleProgress-module---legendLabel---3jNL7, .src-components----TokenSaleProgress-module---legendValue---3L_86 {
+    line-height: 12px;
+    /*margin-right: -67px;*/
+}
+
+.src-components----TokenSaleProgress-module---legendValue---3L_86 {
+    margin-top: -22px;
+    font-weight: 700;
+    /*margin-right: -32px;*/
+}
+
+    .src-components----TokenSaleProgress-module---legendValue---3L_86 span {
+        display: none;
+    }
+
+.src-components----TokenSaleProgress-module---legendLabel---3jNL7 {
+    margin-top: 44px;
+    opacity: 0;
+}

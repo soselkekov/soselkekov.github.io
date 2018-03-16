@@ -1,0 +1,1193 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="author" content="Sas" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta name="msapplication-TileColor" content="#ffffff" />
+<meta name="theme-color" content="#ffffff" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="/Images/icon.svg" />
+<title>SAS</title>
+<link href="/View/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/View/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" />
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+    <link href="/View/css/agency.min.css?v=1" rel="stylesheet" />
+    <script src="/Contents/Scripts/jquery.min.js" type="text/javascript"></script>
+    
+    <script>
+        wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 100,
+                callback: function (box) {
+                    console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+                }
+            }
+        );
+        wow.init();
+        document.getElementById('moar').onclick = function () {
+            var section = document.createElement('section');
+            section.className = 'section--purple wow fadeInDown';
+            this.parentNode.insertBefore(section, this);
+        };
+    </script>
+    <style>
+        .zoom {
+            transition: transform .2s;
+        }
+
+            .zoom:hover {
+                transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            }
+
+        .pdf:hover {
+            background: #31db55;
+            border-color: #31db55;
+            color: #fff;
+        }
+    </style>
+</head>
+<body id="page-top" style="font-family: proxima-nova,sans-serif !important">
+    
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="odgrr+XYqIcNCqlVd7zMD8dcv9iOQ/5IAgmzNVPVtNzs4IwQPqP8MdlPvKJyI/t2gyGtNpRa5YAg8Egk/Fqc7SLbI5LmRjftp1OYNkQC9DBg8b+UIWIV8oQL6cPanZ4emtTL+vfm3z1c/98Xq1OyeTEBoJlpbBqOa6bxw6gCt8OgNy8M9ZJPd9B4kGvgAmOaZT2NOwTZ8kmOXHAl0XKrEeSqSmT7pDNyU4ZauL+/4De9n1vH27cf6Y3ssB1N0vje1Fq9EK091O9i8zSDOebLg8z5LmcWCpz1wGvEMnolOvy1H/Kc7Pm72GJ0Q/EUjda26NG0m5jlJhcKJLhooffy6qPcYVmVsrAEFMQq3dZB96PdEXPL0P6jm4yRl3LZ28ov">
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2A5993C6">
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="b+BDVGdQToBpAXZqJ/NhnIu6b3nhYeAqcwEtrbBBV1b9iEbr45FS4njlbYsPrUrOzFeEZ1HMnX6RsCdtq8Ug3cv0xJ5Vsos8Sc3kS+JAh9TOj2slgmwU0au203mjYRx7">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container" style="max-width: 100% !important">
+                <a class="navbar-brand js-scroll-trigger" href="index.html">
+                    <img class="logo" src="Images\icon_browser.png" alt="Obirum">
+                    <span style="vertical-align: -3px;">Obirum</span>
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" style="color: dimgray" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#Token-Sale">Token Sale</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#Roadmap">Roadmap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#Team">Team</a>
+                        </li>
+                        <li class="nav-item" style="display:none">
+                            <a class="nav-link js-scroll-trigger" href="#Bounties">Bounties</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#Referral">Referral</a>
+                        </li>
+                        <li class="nav-item bordermenu">
+                            <a class="nav-link js-scroll-trigger" href="#btnWP" target="_blank">Whitepaper</a>
+                        </li>
+                        <li class="nav-item bordermenu" style="margin-left: 10px;" id="btnLogin">
+                            <a class="nav-link js-scroll-trigger" href="login.html">Login / Register</a>
+                        </li>
+                        <li class="nav-item bordermenu" style="margin-left: 10px; display: none" id="btnUser">
+                            <a class="nav-link js-scroll-trigger" href="/user">My Account</a>
+                        </li>
+                        <li class="nav-item" style="margin-left: 5px;">
+                            <a class="nav-link js-scroll-trigger" target="_blank" href="https://t.me/obirum">
+                                <i class="fa fa-paper-plane sr-icons" data-sr-id="3" style="font-size: 23px;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-left: 5px;">
+                            <a class="nav-link js-scroll-trigger" target="_blank" href="https://twitter.com/obirumbrowser">
+                                <i class="	fa fa-twitter sr-icons" data-sr-id="3" style="font-size: 23px;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-left: 5px;">
+                            <a class="nav-link js-scroll-trigger" target="_blank" href="https://facebook.com/obirum">
+                                <i class="fa fa-facebook-square sr-icons" data-sr-id="3" style="font-size: 23px;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="masthead">
+            
+<link href="Styles\Style.css" rel="stylesheet">
+<link href="Styles\UCHeader.css" rel="stylesheet">
+<div id="particles-js"></div>
+<div class="div-ucheader" style="padding: 96px 0 100px; margin: 0; font: inherit; width: 100%; font-family: proxima-nova,sans-serif !important;">
+    <div class="container">
+        <div class="section--blue wow bounceInLeft" data-wow-offset="200">
+            <div class="timer" style="margin-top: 0px; transition: -webkit-filter .2s ease-out,filter .2s ease-out;">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <h2 class="timer-head">
+                            <span class="timer-head-title" style="padding-bottom:0">The world's first blockchain browser.</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <h2 class="timer-head">
+                            <span id="HeaderIndex_labtimerhead" class="timer-head-title">TOKEN SALE LIVE NOW</span>
+                            <span id="HeaderIndex_labThanks" class="timer-head-date">Token Sale Ends in:</span>
+                        </h2>
+                    </div>
+                </div>
+                <div id="HeaderIndex_divTimer" class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="timer-head-wrapper" style="text-align: center">
+                            <ul class="timer-list">
+                                <li class="timer-list__item">
+                                    <div class="timer-list__item-value timer-days"></div>
+                                    <div class="timer-list__item-name">days</div>
+                                </li>
+                                <li class="timer-list__item">
+                                    <div class="timer-list__item-value timer-hours"></div>
+                                    <div class="timer-list__item-name">hours</div>
+                                </li>
+                                <li class="timer-list__item">
+                                    <div class="timer-list__item-value timer-min"></div>
+                                    <div class="timer-list__item-name">min</div>
+                                </li>
+                                <li class="timer-list__item">
+                                    <div class="timer-list__item-value timer-sec"></div>
+                                    <div class="timer-list__item-name">sec</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div id="HeaderIndex_btnBuyTokens" class="timer-action">
+                            <a href="register.html" id="buyTokensBtn" class="timer-action__button stay-updated-btn"><span id="HeaderIndex_btnJoinNow" class="bonusNumber-day">BUY TOKEN NOW WITH 150% BONUS</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="opacity: 1; transform: none; transition: all 0.5s ease-out; padding-top: 37px;">
+                <div class="col-md-1"><span></span></div>
+                <div class="col-md-10 col-xs-12">
+                    <div class="src-components----TokenSaleProgress-module---root---3XwUl">
+                        <div class="src-components----TokenSaleProgress-module---bar---1YG9q">
+                            <div id="HeaderIndex_DivTokenSale" class="src-components----TokenSaleProgress-module---barFilled---1DW3f" style="width:10%;">
+                                <span id="HeaderIndex_TokenCount" class="src-components----TokenSaleProgress-module---barText---3RZYx">118.52 ETH</span>
+                            </div>
+                            <div id="HeaderIndex_DivTokenNew" class="src-components----TokenSaleProgress-module---barRemaining---3ou8T" style="width:90%;">
+                            </div>
+                        </div>
+                        <ul class="src-components----TokenSaleProgress-module---legend---3s3E2">
+                            <li class="src-components----TokenSaleProgress-module---legendItem---goglC src-components----TokenSaleProgress-module---legendItemImportant---3Q6K0" style="left: 0%;">
+                                <div class="src-components----TokenSaleProgress-module---legendValue---3L_86" data-reactid="124">
+                                    0
+                                </div>
+                                <div class="src-components----TokenSaleProgress-module---legendLabel---3jNL7">Start</div>
+                            </li>
+                            <li class="src-components----TokenSaleProgress-module---legendItem---goglC src-components----TokenSaleProgress-module---legendItemImportant---3Q6K0" style="left: 20%;">
+                                <div class="src-components----TokenSaleProgress-module---legendValue---3L_86">
+                                    3,050
+                                </div>
+                                <div class="src-components----TokenSaleProgress-module---legendLabel---3jNL7">SOFT CAP</div>
+                            </li>
+                            <li class="src-components----TokenSaleProgress-module---legendItem---goglC src-components----TokenSaleProgress-module---legendItemImportant---3Q6K0" style="left: 100%;">
+                                <div class="src-components----TokenSaleProgress-module---legendValue---3L_86">
+                                    48,050
+                                </div>
+                                <div class="src-components----TokenSaleProgress-module---legendLabel---3jNL7">HARD CAP</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row desc-row div-info-desc" style="font-size: 15px; padding: 28px 0px 12px 0px;">
+                <div id="HeaderIndex_txtBonusH" class="col-5 col-md-5 right">Current wave bonus: </div>
+                <div id="HeaderIndex_BonusH" class="col-6 col-md-6 left" style="padding-left: 0px;">150%</div>
+                <div class="col-5 col-md-5 right">Price: </div>
+                <div class="col-6 col-md-6 left" style="padding-left: 0px;">1 ETH = 20,000 OBR + wave bonus</div>
+                <div class="col-5 col-md-5 right">Soft Cap: </div>
+                <div id="HeaderIndex_SoftCap" class="col-6 col-md-6 left" style="padding-left: 0px;">3,050 ETH</div>
+                <div class="col-5 col-md-5 right">Hard Cap: </div>
+                <div id="HeaderIndex_HardCap" class="col-6 col-md-6 left" style="padding-left: 0px;">48,050 ETH</div>
+                <div class="col-11 col-md-11" style="text-align: center">Transaction minimum purchase 0,1 ETH and maximum purchase 200 ETH</div>
+            </div>
+        </div>
+        <div id="HeaderIndex_divAdress" class="row" style="padding-top: 30px;">
+            <div class="col-md-1"><span></span></div>
+            <div style="border: 1px solid; background-color: #7245bc;" class="col-md-10 col-xs-12">
+                
+                <div class="row" style="padding-top: 35px;">
+                    <div class="col-md-3 col-xs-12">
+                        <div class="col-md-10" style="text-align: center">
+                            <img style="width: 100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARAAAAEQCAYAAAB4CisVAAAHzklEQVR4Xu3dUW7jOBAEUHqR+185e4J1EdWUVnbe+7XV7OYMCgQoxK+11u/6cr+/70d8vV5vP1+HaryT6p+Qetzp4USNd1L9p0hzfsocU/+kLwD8FwEC1AQIUBMgQE2AADUBAtQECFD7SV9I991PML1zPzFjqjHt8YTU4x0+YR/u6DH18AQ7++AEAtQECFATIEBNgAA1AQLUBAhQEyBALb4HkuzcFU99w535iRnuWCO5eo0T9dM+pc9P9DCVejzhxJxOIEBNgAA1AQLUBAhQEyBATYAANQEC1MbvgXyDO+7cT6yR7u2na6T664Y1pvXXgTXS52tjjb/CCQSoCRCgJkCAmgABagIEqAkQoCZAgJr3QD7IzvsJ75x4dyHVSD2mz3ekHpL0/Ike/wonEKAmQICaAAFqAgSoCRCgJkCAmgABagIEqI1fJEsv5XyLNOf05aNUfx1YI7m6/o6dfbiaHvY5gQA1AQLUBAhQEyBATYAANQEC1AQIUIvvgTzh3YBvkO71d/b5RI2paQ/T59eBGtPn10aNZGeNT+AEAtQECFATIEBNgAA1AQLUBAhQEyBA7fU7vdD+Ajt38tNt2lkjeUIPU9MZ1g1znOjxr3ACAWoCBKgJEKAmQICaAAFqAgSoCRCg9lprvb30vvpOfOdOP/WwU+MvSPuUPGEfd2aY9rmzRjLt4Q7TOXdmdAIBagIEqAkQoCZAgJoAAWoCBKgJEKAmQIDa+EWynZdNrjbtMT3/FGmOqSfsw86M0z531phKPaYe0vMnnOjBCQSoCRCgJkCAmgABagIEqAkQoCZAgFr8Yal0Vzy1c9ecpB7TGun5E1IPd/iEOe/oMZnOsD5kjtRjen45gQATAgSoCRCgJkCAmgABagIEqAkQoPaT7oKTdFc8rb82atzRw9V2epzOmZ7fkdZIn9/hxJxJmnPaQ6r/FE4gQE2AADUBAtQECFATIEBNgAA1AQLUftJ99dX30Tv1/+8ed6Qek53nP2HOO3pMPUztzJB62KnxdDszOIEANQEC1AQIUBMgQE2AADUBAtQECFATIEAt/rBUkl42GZa/RZphPWSO1Oe0x1R/3bDGtP56yBrJiR6S1OOJHpxAgJoAAWoCBKgJEKAmQICaAAFqAgSofcQPSz3B1XOkfdyRejyxBnvSXj/h3+pED04gQE2AADUBAtQECFATIEBNgAA1AQLU4t8DSXfFUzt3zamHVCM9f0LqITnR47SHHSf6vNp0H3ZmvGONqWmPO5xAgJoAAWoCBKgJEKAmQICaAAFqAgSoxb8HcsddcpJ6uGOGtEaSnt/pMdVInyc7PUydWGM65/T5daDGt+yDEwhQEyBATYAANQEC1AQIUBMgQE2AADUBAtRea623b7RMX3hJL6tM69/l6jlS/R2phxNrJKmH5BN6PCHNeaLHO9ZwAgFqAgSoCRCgJkCAmgABagIEqAkQoPZz4i74auk+Ozkx47TGdIYdd6yR9iH1kJ7fMa2Rejxh2uOONMcdPTiBADUBAtQECFATIEBNgAA1AQLUBAhQ+0lfuPquOdVfN62RTHtITtSfznmih1Qj9Zie3/GENaaurr821tjZJycQoCZAgJoAAWoCBKgJEKAmQICaAAFq8T2QZHqXnJ7f/c7VUg9pzjtMe0gzrgNrfIIT+7BT4+l2ZnACAWoCBKgJEKAmQICaAAFqAgSoCRCgJkCA2mut9faNmKtfmEn1T5j2uDb6PLHG1dIMJ9yxD1fPcWKGq3vckeY40aMTCFATIEBNgAA1AQLUBAhQEyBATYAAtdfvicvggXRXfYf/eQuOme7lzj5cvca0/jqwRnp+R1oj2ekhrbFTY8oJBKgJEKAmQICaAAFqAgSoCRCgJkCA2uU/LHWHO+67nzDn1Z4w486/ZeozfX5CWiPNkZ5Pn99hpwcnEKAmQICaAAFqAgSoCRCgJkCAmgABavF3YabSffgJO/fVU9M5Uo879U/UeCfVXzetMfUJPd4h7UOaMz2/nECACQEC1AQIUBMgQE2AADUBAtQECFATIEDtZ+dlkaebzpBeqDkh9XhHD2mN1OOOO9ZI7ujhRI130gw7Uo0TMziBADUBAtQECFATIEBNgAA1AQLUBAhQ+0l3xd/gxH33E1w9x4n/C1f3uA70OX1+R1rjxD6dqDHlBALUBAhQEyBATYAANQEC1AQIUBMgQC3+sNQT7pqTO+7c71hj6o4e0xpJ6mFaf22skez0MF0j2ekhST2eWMMJBKgJEKAmQICaAAFqAgSoCRCgJkCA2k/6QnLiLjlJ99lTOzOkHnZqvJPqrwNrnJD6TD2mz3ekHu5wYo5v4AQC1AQIUBMgQE2AADUBAtQECFATIEBNgAC18Ytk32DnxaTpi0NpjZ36J2q8s/N86iF9ntZIz+9Ia5yQ+vyGHlL95QQCTAgQoCZAgJoAAWoCBKgJEKAmQICa90AOSXfm6U4+Pb82atzhCT1M7ez1VFrjCfuYetzhBALUBAhQEyBATYAANQEC1AQIUBMgQO211np7GXzirvhq6U79E2bY8YQ5pz2k5+9wosdU4w6pzzt6dAIBagIEqAkQoCZAgJoAAWoCBKgJEKAW/x5Iumv+Bjsz3nGnnkx7SHNO6+84scYT5vgL0j4vJxBgQoAANQEC1AQIUBMgQE2AADUBAtQECFD7F2dBoFb6WxeRAAAAAElFTkSuQmCC">
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-xs-12">
+                        <div class="form-group">
+                            <h4 class="referral-box-label h4Label" style="text-align: center">Send ETH to this ADDRESS and receive OBR tokens NOW!</h4>
+                            <input name="HeaderIndex$txtAddress" type="text" id="txtAddress" class="form-control txtControl" style="text-transform: none; font-size: 20px !important;" onclick="this.setSelectionRange(0, this.value.length)" readonly="" value="0x0532Dd9ECB00c424c72335Df4f60C11c03229Ec0">
+                            <div class="copy-input" data-target="#txtAddress" style="display: block;">
+                                <span class="done">COPIED!</span>
+                                <a class="copy" onclick="CopyText()">COPY</a>
+                            </div>
+                            <div class="col-xs-12 col-md-12">
+                                <p style="text-align: center; font-family: proxima-nova,sans-serif !important; font-size: 16px;">Set gas limit 200,000 GAS and 20 GWEI GAS PRICE or higher </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-xs-12 col-md-11 note login-page">
+                        <p style="color: #fdff62; font-family: proxima-nova,sans-serif !important;" class="text-men">DO NOT send ETH directly from any exchange addresses! Otherwise YOUR TOKENS WILL BE LOST!!!</p>
+                        <p style="font-family: proxima-nova,sans-serif !important;" class="text-men">
+                            Please make sure to have a valid ERC20 compatible Ethereum address to receive your tokens. Use MyEtherWallet, MetaMask, Mist or other compatible wallets. Explore transactions on <a href="https://etherscan.io/address/0x0532dd9ecb00c424c72335df4f60c11c03229ec0" target="_blank" style="color: #5ae1e7">etherscan.io</a>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="sticky-telegram">
+    <a class="ico-link" target="_blank" href="https://t.me/obirum">
+        <i class="fa fa-paper-plane mb-3 sr-icons" data-sr-id="3" style="margin-top: 16px; margin-right: 4px;"></i>
+    </a>
+</div>
+<div class="sticky-chat">
+    <span style="font-family: 'Open Sans',sans-serif !important">Let's chat</span>
+</div>
+<script type="text/javascript" src="Scripts\particles.min.js"></script>
+<script type="text/javascript">
+    var day = "4315728.6616656";
+    var target_date = new Date().getTime() + (1000 * parseInt(day)); // set the countdown date
+    var days, hours, minutes, seconds; // variables for time units
+
+    var countdown = document.getElementById("tiles"); // get tag element
+
+    getCountdown();
+
+    setInterval(function () { getCountdown(); }, 1000);
+
+    function getCountdown() {
+
+        // find the amount of "seconds" between now and target
+        var current_date = new Date().getTime();
+        var seconds_left = (target_date - current_date) / 1000;
+
+        days = pad(parseInt(seconds_left / 86400));
+        seconds_left = seconds_left % 86400;
+
+        hours = pad(parseInt(seconds_left / 3600));
+        seconds_left = seconds_left % 3600;
+
+        minutes = pad(parseInt(seconds_left / 60));
+        seconds = pad(parseInt(seconds_left % 60));
+
+        $(".timer-days").html(days);
+        $(".timer-hours").html(hours);
+        $(".timer-min").html(minutes);
+        $(".timer-sec").html(seconds);
+    }
+
+    function pad(n) {
+        return (n < 10 ? '0' : '') + n;
+    }
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 80,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "image": {
+                    "src": "img/github.svg",
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 2,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 2,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": false,
+                    "mode": "repulse"
+                },
+                "onclick": {
+                    "enable": false,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 200,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    });
+    function CopyText() {
+        var copyText = document.getElementById("txtAddress");
+        copyText.select();
+        document.execCommand("copy");
+        $(".done").css("display", "inline");
+    }
+</script>
+
+        </header>
+        <section class="bg-light" id="ICOReview" style="background-color: #f9f9f9 !important">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Press & Partners</h2>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-top: 50px">
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center" style="padding-bottom: 30px">
+                        <div class="col-lg-6 div-center">
+                            <a href="https://icobench.com/ico/obirum" target="_blank">
+                                <img class="zoom" src="Images\icobench.svg?v=1" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://icomarks.com/ico/obirum" target="_blank">
+                                <img class="zoom" src="Images\icomarks.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center" style="padding-bottom: 30px">
+                        <div class="col-lg-6 div-center">
+                            <a href="https://icoexpert.biz/icos/obirum/" target="_blank">
+                                <img class="zoom" src="Images\icoexpert.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://www.coingecko.com/vi/ico/obirum?coin_id=obirum" target="_blank">
+                                <img class="zoom" src="Images\coingecko.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-top: 50px">
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://cryptoslate.com/coins/obirum/" target="_blank">
+                                <img class="zoom" src="Images\cryptoslate.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://www.fxempire.com/crypto/ico/obirum" target="_blank">
+                                <img class="zoom" src="Images\fxempire.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://www.tokendesk.io/ico/obirum/" target="_blank">
+                                <img class="zoom" src="Images\tokendesk.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://icoholder.com/en/obirum-ico-18221" target="_blank">
+                                <img class="zoom" src="Images\icoholder.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-top: 50px">
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://www.forbes.com/sites/shermanlee/2018/02/12/how-blockchain-can-empower-content-creators/#6ac0e9736bf6" target="_blank">
+                                <img class="zoom" src="Images\forbes-logo-gray.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://cointelegraph.com/news/security-alert-mist-browser-bug-puts-private-keys-in-danger" target="_blank">
+                                <img class="zoom" src="Images\cointele.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-6 div-center">
+                            <a href="https://thenextweb.com/contributors/2018/03/07/blockchain-startups-forgoing-icos-give-away-free-coins-airdrops/" target="_blank">
+                                <img class="zoom" src="Images\logo-tnw.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-4 div-center">
+                            <a href="https://www.inc.com/joseph-steinberg/6-new-cryptocurrencies-that-should-be-on-your-radar.html" target="_blank">
+                                <img class="zoom" src="Images\inc-logo.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row" style="padding-top: 50px">
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://news.bitcoin.com/finnish-crypto-services-provider-prasos-loses-banking-partners/" target="_blank">
+                                <img class="zoom" src="Images\newbtc.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+
+                            <img class="zoom" src="Images\huffpost-logo.png" alt="" style="width: 100%;">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            
+                            <img class="zoom" src="Images\vb.png" alt="" style="width: 100%;">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-12 div-center">
+                            
+                            <img class="zoom" src="Images\bitcoin-magazine-logo-2017.png" alt="" style="width: 100%;">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 50px">
+                    <div class="col-lg-4 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://bitcointalk.org/index.php?topic=2956329" target="_blank">
+                                <img class="zoom" src="Images\bitcointalk.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="http://mobile510.com/" target="_blank">
+                                <img class="zoom" src="Images\510.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+				 <div class="row" style="padding-top: 50px;display:none">
+					<div class="col-lg-4 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-4 div-center">
+                            <a href="https://xinfin.io/" target="_blank">
+                                <img class="zoom" src="Images\logo-dark.png" alt="" style="width: 100%;">
+                            </a>
+							
+                        </div>
+					</div>
+					<div class="col-12 col-lg-12 wow bounceInLeft">
+						<div class="col-lg-6 div-center">
+						<p style="font-size: 20px; line-height: 30px;text-align:center">Xinfin is commissioned to bridge the global trade deficit by enabling low cost Trade and Finance on its very own platform called TradeFinex. TradeFinex is a Peer to Peer Decentralized Enterprise Grade Hybrid Blockchain powered by its own native XDC01 protocol. To learn more or to participate in Xinfin's ICO please visit <a style="" href="https://www.xinfin.io/" target="_blank">www.xinfin.io</a></p>                        
+                    </div> </div> 
+				   </div>
+                <div class="row" style="padding-top: 100px;">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Exchanges</h2>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 50px">
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://www.kucoin.com/" target="_blank" class="">
+                                <img class="zoom" src="Images\kucoin.svg" alt="" style="width: 100%; background-color: #0e75ee">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://www.bibox.com/" target="_blank" class="">
+                                <img class="zoom" src="Images\bibox.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://hitbtc.com/" target="_blank">
+                                <img class="zoom" src="Images\hitbtc_logo.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://liqui.io/" target="_blank" class="">
+                                <img class="zoom" src="Images\liqui.svg" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row" style="padding-top: 50px">
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://gate.io/" target="_blank" class="">
+                                <img class="zoom" src="Images\gateio.svg" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://etherdelta.com/" target="_blank" class="">
+                                <img class="zoom" src="Images\etherdelta_logo.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://www.coinegg.com/" target="_blank" class="">
+                                <img class="zoom" src="Images\coinegg.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 wow bounceInUp div-center height-center" style="padding-bottom: 30px">
+                        <div class="col-lg-8 div-center">
+                            <a href="https://idex.market/" target="_blank" class="">
+                                <img class="zoom" src="Images\idex.png" alt="" style="width: 100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+        
+        <section id="About" class="img-background-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-12 text-center ">
+                        <h2 class="section-heading text-uppercase">Obirum Features</h2>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-lg-4  wow bounceInUp">
+                        <div class="col-8 div-center" style="padding-bottom: 30px">
+                            <img src="Images\obirum_features.svg" alt="">
+                        </div>
+                        <p style="font-size: 20px; text-align: center; font-weight: 600;">Optimize all features in a browser</p>
+                    </div>
+                    <div class="col-lg-4  wow bounceInUp">
+                        <div class="col-8 div-center" style="padding-bottom: 30px">
+                            <img src="Images\obr_feature_1.svg" alt="">
+                        </div>
+                        <p style="font-size: 20px; text-align: center; font-weight: 600;">Integrate currency wallet in browser</p>
+                    </div>
+                    <div class="col-lg-4  wow bounceInUp">
+                        <div class="col-8 div-center" style="padding-bottom: 30px">
+                            <img src="Images\obr_feature_2.svg" alt="">
+                        </div>
+                        <p style="font-size: 20px; text-align: center; font-weight: 600;">Develop Instant Apps technology that allow users use other apps directly in the browser</p>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-12 col-lg-6 wow bounceInLeft" id="btnWP">
+                        <div class="col-lg-12 col-12 text-center ">
+                            <h3 class="section-heading text-uppercase">What is Obirum?</h3>
+                        </div>
+                        <p style="font-size: 20px; line-height: 30px;">Obirum is a browser that integrates the advantages of blockchain technology with the desire to become a most powerful and secure browser.</p>
+                        <p style="font-size: 20px; line-height: 30px;">Obirum is confident to be a leading global distribution platform for games and applications which benefits both users and developers.</p>
+                        <p style="font-size: 20px; line-height: 30px;">In the future, Obrium will provide more APIs for developers and payment units. Users can quickly and securely interact with financial services and pay instantly on Obirum.</p>
+                        <div style="padding-bottom: 80px">
+                            <button style="height: 53px; font-size: 20px; font-weight: 100 !important; background: #53C16A; color: white; border-color: #53C16A;" class="btn pdf dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-file-pdf-o" style="padding-right: 10px;"></i>WhitePaper</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item wp-lang" title="English" href="files\OBR-white-paper.pdf" target="_blank">English</a>
+                                <a class="dropdown-item wp-lang" title="Russian" href="files\OBR-white-paper_RU.pdf" target="_blank">Russian</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6" style="padding-bottom: 100px">
+                        <div data-wow-delay="0.01s" class="embed-responsive embed-responsive-16by9 wow bounceInUp">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PIxP1Xs2HSc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h1 class="text-uppercase" style="padding-bottom: 10px;">
+                            <strong>
+                                <img style="width: 70%" src="Images\iphone.svg"></strong>
+                        </h1>
+                        <p style="font-size: 20px; line-height: 30px;">With Instant Apps, users can use a single feature of an app without having to install the app with all its other features. When users request a feature from an instant app, they receive only the code necessary to run that specific feature, no more and no less. After users have finished using the feature, the system can dispose of the feature's code.</p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="col-lg-12 col-12 text-center " style="padding-bottom: 15px;">
+                            <h3 class="section-heading text-uppercase">Obirum Instant Apps</h3>
+                        </div>
+                        <p style="font-size: 20px; line-height: 30px;">Instant Apps enables native Android and IOS applications to run in response to launching a URL, without installing the app.</p>
+                        <p style="font-size: 26px; line-height: 30px;font-weight:bold">How do they work? </p>
+                        <p style="font-size: 20px; line-height: 30px;">When Obirum receives a request for a URL that matches an instant app, it sends the necessary code files to the  device that sent the request. The device then runs the app.</p>
+                        <p style="font-size: 20px; line-height: 30px;">Instant Apps provide a new and unique way for developers to build apps and for users to consume apps.</p>
+                       <p style="font-size: 20px; line-height: 30px; padding-bottom: 10px">Each feature within the instant app should have at least one Activity that acts as the entry-point for that feature. An entry-point activity hosts the UI for the feature and defines the overall user flow. When users launch the feature on their device, the entry-point activity is what they see first. A feature can have more than one entry-point activity, but it only needs one.</p>
+                        <div style="text-align: center">
+                            <a class="mb-5" href="https://play.google.com/store/apps/details?id=com.obirum.browser" target="_blank">
+                                <img style="width: 150px" src="Images\googleplay.png"></a>
+                            <a class="mb-5" href="#">
+                                <img style="width: 150px; margin-left: 30px;" src="Images\apstore.png"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <section id="Token-Sale">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-xs-12">
+                        <h2 class="section-heading text-uppercase">Token Sale</h2>
+                    </div>
+
+                    <div class="col-lg-8 col-xs-12 wow bounceInRight">
+                        <ul class="list-inline quicklinks">
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Name</h5>
+                                <p class="col-md-8 col-xs-12">Obirum</p>
+                            </li>
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Symbol</h5>
+                                <p class="col-md-8 col-xs-12">OBR</p>
+                            </li>
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Supply</h5>
+                                <p class="col-md-8 col-xs-12">2,302,000,000 OBR</p>
+                            </li>
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Token for ICO</h5>
+                                <p class="col-md-8 col-xs-12">1,151,000,000 OBR</p>
+                            </li>
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Soft Cap</h5>
+                                <p class="col-md-8 col-xs-12">3,050 ETH</p>
+                            </li>
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Hard Cap</h5>
+                                <p class="col-md-8 col-xs-12">48,050 ETH</p>
+                            </li>
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Exchange</h5>
+                                <p class="col-md-8 col-xs-12">1 ETH = 20,000 OBR</p>
+                            </li>
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Min Purchase</h5>
+                                <p class="col-md-8 col-xs-12">0.1 ETH</p>
+                            </li>
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Max Purchase</h5>
+                                <p class="col-md-8 col-xs-12">200 ETH</p>
+                            </li>
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Starts</h5>
+                                <p class="col-md-8 col-xs-12">March 6th, 2018 at 07:00:00 AM UTC</p>
+                            </li>
+                            <li class="li-road-map">
+                                <h5 class="col-md-4 col-xs-12" style="font-weight: 700;">Ends</h5>
+                                <p class="col-md-8 col-xs-12">May 5th, 2018 at 06:59:59 AM UTC</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="padding-top: 100px" class="row">
+                    <div class="col-sm-6 col-xs-10 col-xs-offset-1 col-md-offset-0 wow bounceInLeft">
+                        <ul class="list-inline quicklinks" style="width: 100%">
+                            <li class="li-token-distribution">
+                                <div class="diagram-wrapper">
+                                    <div class="one-diagram col-md-12 col-sm-12">
+                                        <img src="Images\token_distribute.svg" alt="" class="img-Token col-sm-12">
+                                        <ul style="list-style: none;">
+                                            <li class="color-token li-perencet">50% Token for ICO</li>
+                                            <li class="color-team li-perencet">13% Team</li>
+                                            <li class="color-angel li-perencet">12% Angel investors & Advisor</li>
+                                            <li class="color-founder li-perencet">10% Founder</li>
+                                            <li class="color-wallet li-perencet">10% Early Obirum Wallet</li>
+                                            <li class="color-bounty li-perencet">5% ICO Bounty</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-xs-10 col-xs-offset-1 col-sm-offset-0 wow bounceInRight">
+                        <ul class="list-inline quicklinks" style="width: 100%">
+                            <li class="li-token-distribution">
+                                <div class="diagram-wrapper">
+                                    <div class="one-diagram col-md-12 col-sm-12">
+                                        
+                                        <img src="Images\use_of_funds.svg" alt="" class="img-Token col-sm-12">
+                                        <ul style="list-style: none;">
+                                            <li class="color-marketing li-perencet">55% Marketing & PR</li>
+                                            <li class="color-operate li-perencet">30% Operate & Development</li>
+                                            <li class="color-reserve li-perencet">15% Reserve</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 100px">
+                    <div class="col-lg-12 col-xs-10 col-xs-offset-1 col-md-offset-0">
+                        <h2 style="text-align: center">Token Sale Terms</h2>
+                        <img data-wow-delay="0.1s" src="Images\token_sales_chart.svg" alt="token_sales_chart" class="img-Token col-sm-12 wow bounceInUp">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Roadmap  <section id="Roadmap" style="color: #FFF; position: relative; background-image: url(/View/img/header-bg.jpg);">-->
+        <section id="Roadmap" class="img-background-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Roadmap</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-image" style="background-color: #28a745">
+                                    Q4 2017
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading timeline-heading-top wow bounceInLeft">
+                                        <h4 class="subheading">Obirum idea and Research</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image wow flipInX" style="background-color: #28a745">
+                                    Q1 2018
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading wow bounceInRight">
+                                        <h4 class="subheading">Obirum ICO: Period of building Ethereum Smart Contract for Obirum Token Sale, an ERC20 token, marketing and Obirum Token Crowdsale & Distribution Event. Launching Android beta version.</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    Q2 2018
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading wow bounceInLeft">
+                                        <h4 class="subheading">Launching Android official version with Obirum Wallet supportBitcoin, Ethereum and Obirum Token. Obirum ICO end</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    Q3 2018
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading wow bounceInRight">
+                                        <h4 class="subheading">Listing on some exchange platform. Android version has 5M installations. Support more cryptocurrency on Obirum Wallet. Launching IOS beta version.</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    Q4 2018
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading wow bounceInLeft">
+                                        <h4 class="subheading">Android version has 15M installations .Launching IOS official version</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    Q1 2019
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading wow bounceInRight">
+                                        <h4 class="subheading">Android and IOS version has 30M installations, 10M daily active users. Launching Windows, OSX and Linux beta version</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    Q3 2019
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading wow bounceInLeft">
+                                        <h4 class="subheading">Launching Windows ,OSX and Linux official version Open Payment Platform for Developer</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    Q4 2019
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading wow bounceInRight">
+                                        <h4 class="subheading">Open API for Developer for test Instant Apps</h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    Q1 2020
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading wow bounceInLeft">
+                                        <h4 class="subheading">Launching Open API for Developer Instant Apps</h4>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team -->
+        <section class="bg-light" id="Team">
+            <div class="container" style="max-width: 100%">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Founder Team</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-2 wow bounceInLeft">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="Images\Luan.png" alt="">
+                            <h4>Luan Phung</h4>
+                            <p class="text-muted">CEO and Founder</p>
+                            <ul class="list-inline social-buttons" style="padding-bottom: 17px">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/luan-phung-9b199876/" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="text-muted">He has been developing web and mobile software products since 2014. He has more than 5 years of experience in marketing and business development.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2  wow bounceInUp">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="Images\Dung.png" alt="">
+                            <h4>Dung Nguyen</h4>
+                            <p class="text-muted">Co-founder, CTO</p>
+                            <ul class="list-inline social-buttons" style="padding-bottom: 17px">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/dung-nguyen-a372349a" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="text-muted">Full Stack Developer - He has more than 3 years in managment IT projects and an experienced software engineer, focusing on Mobile development since 2013.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 wow bounceInDown">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="Images\Anh.png" alt="">
+                            <h4>Anh Phung</h4>
+                            <p class="text-muted">Co-founder, CMO</p>
+                            <ul class="list-inline social-buttons" style="padding-bottom: 17px">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/anh-phung-2997aa159/" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="text-muted">He has more than 4 years of experience in digital marketing and worked on marketing campaigns for with YouTube, Google Adwords and Facebook Ads.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2  wow bounceInUp">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="Images\Thinh.png" alt="">
+                            <h4>Thinh Phung</h4>
+                            <p class="text-muted">Blockchain Developer</p>
+                            <ul class="list-inline social-buttons" style="padding-bottom: 17px">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/phung-thinh-18331215a/" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="text-muted">He has experience with Blockchain Technology and Ethereum Smart Contract.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 wow bounceInRight">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="Images\Phu.png" alt="">
+                            <h4>Phu Dong</h4>
+                            <p class="text-muted">Backend Developer</p>
+                            <ul class="list-inline social-buttons" style="padding-bottom: 17px">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/phu-dong-45432315a/" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="text-muted">He is backend software engineer with experience in working with various technological stacks and large profile of international products.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 50px">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Advisor</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5"></div>
+                    <div class="col-sm-2">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="Images\Hung.png" alt="">
+                            <h4>Hung Nguyen</h4>
+                            <p class="text-muted">CEO and Founder, Mobile510</p>
+                            <ul class="list-inline social-buttons" style="padding-bottom: 17px">
+                                <li class="list-inline-item">
+                                    <a href="http://linkedin.com/in/vanhung510" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="text-muted">He has an Master of Science in Information Technology with 10 years experience in mobile software development, an expert in IOS programming.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Bounties -->
+        <section id="Bounties" class="img-background-color" style="display:none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Bounties Program</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 one-diagram">
+                        <ul style="list-style: none;">
+                            <li class="green-dot li-perencet">Registration on Obirum ICO opens on 24th February, 2018 07:00:00 AM UTC</li>
+                            <li class="green-dot li-perencet">Register bonus for the first 100,000 people who register account and join Telegram, like Facebook and follow Twitter of Obirum:
+                                  <ul class="wow bounceInUp">
+                                      <li class="orange-dot li-perencet">The first 10 users will get 20,000 OBR (1000 USD)</li>
+                                      <li class="orange-dot li-perencet">The next 90 users will get 10,000 OBR (500 USD)</li>
+                                      <li class="orange-dot li-perencet">The next 400 users will get 4,000 OBR (200 USD)</li>
+                                      <li class="orange-dot li-perencet">The next 500 users will get 2,000 OBR (100 USD)</li>
+                                      <li class="orange-dot li-perencet">The next 1,000 users will get 1,000 OBR (50 USD)</li>
+                                      <li class="orange-dot li-perencet">The next 3,000 users will get 500 OBR (25 USD)</li>
+                                      <li class="orange-dot li-perencet">The next 5,000 users will get 200 OBR (10 USD)</li>
+                                      <li class="orange-dot li-perencet">The next 10,000 users will get 100 OBR (5 USD)</li>
+                                      <li class="orange-dot li-perencet">The next 80,000 users will get 50 OBR (2.5 USD)</li>
+                                  </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Referral -->
+        <section class="img-background-color" id="Referral">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Referral Program</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 one-diagram">
+                        <ul style="list-style: none;">
+                            <li class="green-dot li-perencet">Get 50% of total register bonus token by referral users</li>
+                            <li class="green-dot li-perencet">Token purchased by Affiliate users:
+                                  <ul class="wow bounceInUp">
+                                      <li class="orange-dot li-perencet">Who bring at least 150 active users via their referral link will get 8% of all token purchased by such users</li>
+                                      <li class="orange-dot li-perencet">Who bring at least 100 active users via their referral link will get 7% of all token purchased by such users</li>
+                                      <li class="orange-dot li-perencet">Who bring at least 50 active users via their referral link will get 6% of all token purchased by such users</li>
+                                      <li class="orange-dot li-perencet">Who bring at least 30 active users via their referral link will get 5% of all token purchased by such users</li>
+                                      <li class="orange-dot li-perencet">Who bring at least 10 active users via their referral link will get 4% of all token purchased by such users</li>
+                                      <li class="orange-dot li-perencet">Who bring at least 1 active users via their referral link will get 3% of all token purchased by such users</li>
+                                  </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer style="background-color: #854fc6;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4" style="color: #fff">
+                        <span class="copyright">Copyright &copy; Obirum ICO 2018</span>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://t.me/obirum" target="_blank">
+                                    <i class="fa fa-paper-plane sr-icons"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://github.com/obirum" target="_blank">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/obirumbrowser" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://facebook.com/obirum" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://instagram.com/obirumbrowser" target="_blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="mailto:support@obirum.com">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li class="list-inline-item">
+                                <a href="files\OBR-ICO-Privacy-Policy.pdf" target="_blank">Privacy Policy</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="files\OBR-ICO-Terms-of-Service.pdf" target="_blank">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script src="View\vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
+    <script src="View\vendor\jquery-easing\jquery.easing.min.js"></script>
+    <script src="View\js\jqBootstrapValidation.js"></script>
+    <script src="View\js\contact_me.js"></script>
+    <script src="View\js\agency.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            if ("False" == "True") {
+                $("#btnLogin").css("display", "none");
+                $("#btnUser").css("display", "inline");
+            }
+            else {
+                $("#btnLogin").css("display", "inline");
+                $("#btnUser").css("display", "none");
+            }
+        });
+    </script>
+    
+</body>
+</html>
